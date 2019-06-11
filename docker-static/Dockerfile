@@ -18,7 +18,7 @@ ADD web /var/www/html/
 # Append "daemon off;" to the beginning of the configuration
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
-# Expose ports
+# Expose ports - 80 only
 EXPOSE 80
 
 # Set the default command to execute
