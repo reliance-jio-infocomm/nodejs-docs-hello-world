@@ -18,8 +18,8 @@ ADD web /var/www/html/
 # Append "daemon off;" to the beginning of the configuration
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
-# Expose ports - 80 only
-EXPOSE 1337
+# Expose ports - 90 only
+EXPOSE 90
 
 # Set the default command to execute
 # when creating a new container
